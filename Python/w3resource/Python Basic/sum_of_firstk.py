@@ -3,9 +3,8 @@
 def find_sum(lst, value):
     sum = 0
     for num in lst[:value]:
-        if len(str(abs(num))) > 2:
+        if abs(num) >= 100:
             sum += num
-        
     return sum
 
 list1 = [4, 5, 17, 9, 14, 108, -9, 12, 76]

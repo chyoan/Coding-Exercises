@@ -11,8 +11,8 @@ def find_closest(numbers):
             pair = [numbers[i], numbers[i+1]]
     return pair
 
-list1 = [1.3, 5.24, 0.89, 21.0, 5.27, 1.3]
-list2 = [12.02, 20.3, 15.0, 19.0, 11.0, 14.99, 17.0, 17.0, 14.4, 16.8]
+list1 = [1.3, 5.24, 0.89, 21.0, 5.27, 1.3] # [5.24, 5.27]
+list2 = [12.02, 20.3, 15.0, 19.0, 11.0, 14.99, 17.0, 17.0, 14.4, 16.8] # [14.99, 15.0]
 
 print(find_closest(list1))
 print(find_closest(list2))
